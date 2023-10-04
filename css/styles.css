@@ -689,33 +689,42 @@ footer p {
     letter-spacing: 0.64px;
     width: 169px;
     text-align: center;
-  
+}
+
+.modal-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
     /* Input Active */
 
 .inputs>div:hover input{
-    border: 1px solid blue;
+    border-radius: 4px;
+    border: 1px solid var(--IRIS, #4D5AE5);
 }
 
 .inputs>div:hover i {
-    color: blue;
+    color: var(--IRIS);
 }
 
 .inputs input:focus {
-    border: 1px solid blue;
+    border-radius: 4px;
+    border: 1px solid var(--IRIS, #4D5AE5);
 }
 
 .inputs input:focus i {
-    color: blue;
+    color: var(--IRIS);
 }
 
 .inputs input:active {
-    border: 1px solid blue;
+    border-radius: 4px;
+    border: 1px solid var(--IRIS, #4D5AE5);
+    color: var(--IRIS);
 }
 
 .inputs input:active i {
-    color: blue;
+    color: var(--IRIS);
 }
 
     /* Modal Icons */
