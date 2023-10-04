@@ -372,8 +372,8 @@ button {
 
 .icons-svg {
     display: flex;
-    width: 16px;
-    height: 16px;
+    width: 40px;
+    height: 40px;
     flex-shrink: 0;
     padding: 12px;
     background-image: url("ellipse.svg");
@@ -396,8 +396,8 @@ button {
 /* Section 4 */
 
 .customer-svg {
-    width: 104px;
-    height: 56px;
+    width: 168px;
+    height: 88px;
     padding: 16px 32px 16px 32px;
     border-radius: 4px;
         border: 1px solid var(--LIGHT-SLATE, #8E8F99);
@@ -511,6 +511,54 @@ footer p {
     margin: 0;
 }
 
+footer .footer-form{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.footer-form form {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.footer-form p{
+    margin-bottom: 0;
+}
+
+.footer-form input {
+    width: 264px;
+    height: 40px;
+    padding-left: 16px;
+    border-radius: 4px;
+    border: 1px solid var(--WHITE, #FFF);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.footer-form button {
+    border-radius: 4px;
+    background: var(--IRIS, #4D5AE5);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 24px;
+    padding-right: 58px;
+}
+
+.footer-form {
+    position: relative;
+}
+
+.footer-form img{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 149px;
+    left: 405px;
+}
+
+
+
 /* Modal Section */
 
 .data-modal {
@@ -550,11 +598,11 @@ footer p {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* .is-hidden {
+.is-hidden {
     visibility: hidden;
     opacity: 0;
     pointer-events: none;
-} */
+}
 
     /* Modal Form */
 .modal-form .modal-header {
@@ -714,29 +762,16 @@ footer p {
     color: var(--IRIS);
 }
 
+
 .inputs input:focus {
     border-radius: 4px;
     border: 1px solid var(--IRIS, #4D5AE5);
 }
 
-.inputs input:focus i {
-    color: var(--IRIS);
-}
 
 .inputs input:active {
     border-radius: 4px;
     border: 1px solid var(--IRIS, #4D5AE5);
-    color: var(--IRIS);
-}
-
-.inputs input:active + i {
-    color: var(--IRIS);
-}
-
-.checkbox input:hover,
-.checkbox input:focus {
-    border-radius: 4px;
-    border: 1px solid red;
 }
 
     /* Modal Icons */
@@ -752,5 +787,9 @@ footer p {
     top: 26px;
     left: 16px;
     width: 18px;
-    height: 24px;
+    height: 18px;
 }
+
+    /* Footer Form */
+
+
