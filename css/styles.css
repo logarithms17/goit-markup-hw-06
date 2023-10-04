@@ -297,8 +297,8 @@ button {
 }
 
 .svg {
-    width: 64px;
-    height: 64px;
+    width: 264px;
+        height: 112px;
     padding: 24px 100px 24px 100px;
     background-color: var(--CLOUD);
 }
