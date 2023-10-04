@@ -294,6 +294,9 @@ button {
 
 .section1 li{
     width: 264px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
 .svg {
