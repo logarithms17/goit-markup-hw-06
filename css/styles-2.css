@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 body {
     max-width: 1440px;
 }
@@ -339,6 +343,93 @@ footer p {
     gap: 16px;
     margin: 0;
 }
+
+        /* Footer Form */
+    
+        .social-media {
+            display: flex;
+            flex-direction: column;
+            margin-left: 120px;
+            gap: 16px;
+        }
+    
+        .social-media-icons-svg {
+            display: flex;
+            width: 40x;
+            height: 40px;
+            flex-shrink: 0;
+            /* padding: 12px; */
+        }
+    
+        .social-icons-footer {
+            display: flex;
+            gap: 16px;
+            margin: 0;
+        }
+    
+        footer .footer-form {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+    
+        .footer-form form {
+            display: flex;
+            flex-direction: row;
+            gap: 24px;
+        }
+    
+        .footer-form p {
+            margin-bottom: 0;
+        }
+    
+        .footer-form input {
+            width: 264px;
+            height: 40px;
+            padding-left: 16px;
+            border-radius: 4px;
+            border: 1px solid var(--WHITE, #FFF);
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+        }
+    
+        .footer-form button {
+            border-radius: 4px;
+            background: var(--IRIS, #4D5AE5);
+            padding-top: 8px;
+            padding-bottom: 8px;
+            padding-left: 24px;
+            padding-right: 58px;
+            color: var(--WHITE, #FFF);
+            text-align: center;
+        
+            /* Button Text */
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 24px;
+            /* 150% */
+            letter-spacing: 0.64px;
+            border: none;
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+            width: 165px;
+            height: 40px;
+
+        }
+    
+        .footer-form {
+            position: relative;
+        }
+    
+        .footer-form img {
+            width: 24px;
+            height: 24px;
+            position: absolute;
+            top: 48px;
+            left: 405px;
+        }
+    
+        /* End of Footer Form */
 
 /* Overlay Section */
 
