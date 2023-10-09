@@ -612,7 +612,11 @@ footer .footer-form{
     pointer-events: none;
 }
 
+    /* End of Modal Section */
+
     /* Modal Form */
+
+
 .modal-form .modal-header {
     text-align: center;
     margin-top: 72px;
@@ -627,6 +631,7 @@ footer .footer-form{
     align-items: center;
     gap: 8px;
     /* margin: 0 24px; */
+    /* margin-left: 24px; */
 }
 
 .inputs {
@@ -658,6 +663,10 @@ footer .footer-form{
     padding-left: 12px;
     padding-bottom: 98px;
     padding-top: 18px;
+}
+
+.comment {
+    margin-left: 24px;
 }
 
 .inputs label {
@@ -761,12 +770,12 @@ footer .footer-form{
 
     /* Input Active */
 
-.inputs>div:hover input{
+.inputs>label:hover input{
     border-radius: 4px;
     border: 1px solid var(--IRIS, #4D5AE5);
 }
 
-.inputs>div:hover i {
+.inputs>label:hover i {
     color: var(--IRIS);
 }
 
@@ -784,7 +793,7 @@ footer .footer-form{
 
     /* Modal Icons */
 
-.inputs>div {
+.inputs>label {
     position: relative;
     display: flex;
     flex-direction: column;

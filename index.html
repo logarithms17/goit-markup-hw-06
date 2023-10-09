@@ -245,35 +245,39 @@
 
                 <form action="">
                     <div class="inputs">
-                        <div class="name">
-                            <label for="name">Name</label>
-                            <input type="text" id="name" placeholder="" class="info-inputs" name="name" autocomplete="off">
-                            <div class="icon-name">
-                                <i class="fa fa-user" aria-hidden="true"></i>
-                            </div>
-                        </div>
-                        <div class="phone">
-                            <label for="phone-number">Phone</label>
-                            <input type="text" placeholder="" class="info-inputs" id="phone-number" name="phone-number">
-                            <div class="icon-phone">
-                                <i class="fa-solid fa-phone"></i>
-                            </div>
-                        </div>
-                        <div class="email">
-                            <label for="email">Email</label>
-                            <input type="email" placeholder="" class="info-inputs" id="email" name="email">
-                            <div class="icon-email">
-                                <i class="fa-solid fa-envelope"></i>
-                            </div>
-                        </div>
+                        <!-- <div class="name"> -->
+                            <label for="name">Name
+                                <input type="text" id="name" placeholder="" class="info-inputs" name="name" autocomplete="off" required>
+                                <div class="icon-name">
+                                    <i class="fa fa-user" aria-hidden="true"></i>
+                                </div>
+                            </label>
+                        <!-- </div> -->
+                        <!-- <div class="phone"> -->
+                            <label for="phone-number">Phone
+                                <input type="text" placeholder="" class="info-inputs" id="phone-number" name="phone-number" autocomplete="off" required>
+                                <div class="icon-phone">
+                                    <i class="fa-solid fa-phone"></i>
+                                </div>
+                            </label>
+                        <!-- </div> -->
+                        <!-- <div class="email"> -->
+                            <label for="email">Email
+                                <input type="email" placeholder="" class="info-inputs" id="email" name="email" autocomplete="off" required>
+                                <div class="icon-email">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </div>
+                            </label>
+                        <!-- </div> -->
                         <div class="comment">
-                            <label for="comment">Comment</label>
-                            <input type="text" placeholder="Text Input" class="input-comment" id="comment" name="email">
+                            <label for="comment">Comment
+                                <input type="text" placeholder="Text Input" class="input-comment" id="comment" name="email" autocomplete="off" required>
+                            </label>
                         </div>
                 
                     </div>  
                     <div class="checkbox">
-                        <input type="checkbox" name="checkbox" id="checkbox">
+                        <input type="checkbox" name="checkbox" id="checkbox" autocomplete="off" required>
                         <label>I accept the terms and conditions of the
                             <span><a href="" class="checkbox-privacy-policy">Privacy Policy</a></span>
                         </label>
