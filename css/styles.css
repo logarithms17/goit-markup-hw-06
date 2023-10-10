@@ -26,6 +26,12 @@ body {
         padding-left: 16px;
         padding-right: 16px;
     }
+
+        /* Header */
+
+        
+
+
         /* section 1 */
 
     .section1 li{
@@ -185,7 +191,6 @@ span {
     letter-spacing: 0.32px;
     display: flex;
     gap: 40px;
-
 }
 
 a {
@@ -208,7 +213,10 @@ a {
     flex-grow: 1;
     justify-content: flex-end;
     gap: 40px;
+    /* flex-wrap: wrap; */
 }
+
+
 
 header {
     display: flex;
